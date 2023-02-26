@@ -2,7 +2,7 @@
 
 def binary_search_function(sorted_array, number):
     """The binary_search_function takes a sorted array of numbers 
-    and a specific number which is needed ti be found in provided array.
+    and a specific number which is needed to be found in provided array.
     If the numer is in array, function returns its index,
     in other case it returns a not found message"""
 
