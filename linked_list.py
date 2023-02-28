@@ -223,7 +223,7 @@ ll.remove(9)
 #print("After deleting: ", ll.count)
 # find first and last elements - complexity O(1)
 print("Head ", ll.head,",", "End ", ll.end)
-# try to find value in the list
+# try to find value in the list - complexity O(n)
 print(ll.find_value(3))
 # try to find value that is not in the list
 print(ll.find_value(1000))
