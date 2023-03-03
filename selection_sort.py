@@ -23,7 +23,7 @@ def selection_sort(arr):
 
 
 # create a list of random numbers
-a = list(randint(1, 99) for i in range(4))
+a = [randint(1, 99) for i in range(4)]
 # print the list before and after sorting
 print(f"List before sorting: {a}")
 print(f"List after sorting: {selection_sort(a)}")
